@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 10px solid rgb(254, 97, 0);
+  height: 100vh;
+}
+
+#header {
+  background-color: lightsalmon;
+  height: 20vh;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin-left: 1.5rem;
+}
+
+#btn {
+  margin-right: 1.5rem;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: rgb(254, 97, 0);
+  border-radius: 6px;
+  border: none;
+}
+
+h2 {
+  margin-top: 2rem;
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+h3 {
+  margin-top: 2rem;
+  text-align: center;
+}
